@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "build": "npm run write:env -s && ng build --base-href https://faizanc95.github.io/bubble-shine/",
+    "build": "npm run write:env -s && ng build --base-href /bubble-shine/",
     "start": "npm run write:env -s && ng serve --proxy-config proxy.conf.js",
     "deploy": "npm run write:env -s && ng deploy",
     "lint": "ng lint && stylelint \"src/**/*.scss\"",
