@@ -1,0 +1,33 @@
+{
+  "generator-ngx-rocket": {
+    "version": "11.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "bubble-shine",
+      "target": ["web", "cordova"],
+      "mobile": ["ios", "android"],
+      "ui": "bootstrap",
+      "features": ["auth", "lazy", "angulartics"],
+      "languages": ["en-US"],
+      "analyticsProvider": "ga",
+      "googleAnalyticsAccount": " ",
+      "tools": ["prettier", "hads", "compodoc"],
+      "utility": ["lodash", "moment"],
+      "deploy": "github",
+      "projectName": "bubble-shine",
+      "packageManager": "npm",
+      "desktop": [],
+      "pwa": false,
+      "auth": true,
+      "lazy": true,
+      "e2e": false,
+      "cypress": false,
+      "angulartics": true
+    }
+  }
+}
